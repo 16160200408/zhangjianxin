@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\objects\led2.o"
+".\objects\led1.o"
+".\objects\shanshuo.o"
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+--strict --scatter ".\Objects\123.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\123.map" -o .\Objects\123.axf

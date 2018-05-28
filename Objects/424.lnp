@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\objects\sss.o"
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+--strict --scatter ".\Objects\424.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\424.map" -o .\Objects\424.axf
